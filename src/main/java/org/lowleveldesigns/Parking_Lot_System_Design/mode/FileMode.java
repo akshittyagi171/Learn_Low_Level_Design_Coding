@@ -1,5 +1,11 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.mode;
 
+import org.lowleveldesigns.Parking_Lot_System_Design.OutputPrinter;
+import org.lowleveldesigns.Parking_Lot_System_Design.commands.CommandExecutorFactory;
+import org.lowleveldesigns.Parking_Lot_System_Design.model.Command;
+
+import java.io.*;
+
 /**
  * Mode running in which input commands are given from a file.
  */

@@ -1,6 +1,11 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.model;
 
 import org.lowleveldesigns.Parking_Lot_System_Design.exception.InvalidSlotException;
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.ParkingLotException;
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.SlotAlreadyOccupiedException;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Model object to represent the functioning of a parking lot.

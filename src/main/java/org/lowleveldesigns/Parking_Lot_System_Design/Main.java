@@ -1,7 +1,15 @@
 package org.lowleveldesigns.Parking_Lot_System_Design;
 
+import org.lowleveldesigns.Parking_Lot_System_Design.commands.CommandExecutorFactory;
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.InvalidModeException;
+import org.lowleveldesigns.Parking_Lot_System_Design.mode.FileMode;
+import org.lowleveldesigns.Parking_Lot_System_Design.mode.InteractiveMode;
+import org.lowleveldesigns.Parking_Lot_System_Design.service.ParkingLotService;
+
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         final OutputPrinter outputPrinter = new OutputPrinter();
         final ParkingLotService parkingLotService = new ParkingLotService();
         final CommandExecutorFactory commandExecutorFactory =

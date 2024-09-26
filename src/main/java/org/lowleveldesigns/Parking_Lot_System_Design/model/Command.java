@@ -1,5 +1,11 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.model;
 
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.InvalidCommandException;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Model object to represent a input command.
  */

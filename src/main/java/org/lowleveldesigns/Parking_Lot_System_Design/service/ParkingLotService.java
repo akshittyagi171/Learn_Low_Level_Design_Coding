@@ -1,5 +1,16 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.service;
 
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.ParkingLotException;
+import org.lowleveldesigns.Parking_Lot_System_Design.model.Car;
+import org.lowleveldesigns.Parking_Lot_System_Design.model.ParkingLot;
+import org.lowleveldesigns.Parking_Lot_System_Design.model.Slot;
+import org.lowleveldesigns.Parking_Lot_System_Design.model.parkingStrategy.ParkingStrategy;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
 /**
  * Service for enable the functioning of a parking lot. This will have all the business logic of
  * how the parking service will operate.

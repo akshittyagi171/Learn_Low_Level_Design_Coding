@@ -1,5 +1,7 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.model.parkingStrategy;
 
+import org.lowleveldesigns.Parking_Lot_System_Design.exception.NoFreeSlotAvailableException;
+import java.util.TreeSet;
 /**
  * Parking strategy in which the natural ordering numbers are used for deciding the slot numbers.
  * For example, 1st car will be parked in slot 1, then next in slot 2, then in slot 3, and so on.
