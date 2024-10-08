@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Model object to represent a input command.
+ * model object to represent a input command.
  */
 public class Command {
 

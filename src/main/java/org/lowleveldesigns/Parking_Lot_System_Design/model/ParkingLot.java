@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Model object to represent the functioning of a parking lot.
+ * model object to represent the functioning of a parking lot.
  */
 public class ParkingLot {
     private static int MAX_CAPACITY = 100000;

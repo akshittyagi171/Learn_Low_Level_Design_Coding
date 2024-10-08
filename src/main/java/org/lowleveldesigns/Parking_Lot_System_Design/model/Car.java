@@ -1,7 +1,7 @@
 package org.lowleveldesigns.Parking_Lot_System_Design.model;
 
 /**
- * Model object to represent a car.
+ * model object to represent a car.
  */
 public class Car {
     private String registrationNumber;
